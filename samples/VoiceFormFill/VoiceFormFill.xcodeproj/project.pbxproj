@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097B11852D6E9E92D120C170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF75E4055569FB8C0A0DB16 /* AppDelegate.swift */; };
+		133AB03E6DFB0777365F4B0F /* VoiceFormCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029201DA30FCBF02F8D32641 /* VoiceFormCoordinator.swift */; };
+		183E941A6D466EEDA5BFCA9E /* MWDATMockDevice in Frameworks */ = {isa = PBXBuildFile; productRef = 70B67F8638F1D534BC118495 /* MWDATMockDevice */; };
+		27BBE4C98FD5DD27B840B298 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32906BBCDA73AE698C6A3D15 /* FormViewController.swift */; };
+		2E7C0D1CBA204F7A5DDD45D8 /* MockPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E1F46CD4A9EA362703C85 /* MockPanelViewController.swift */; };
+		4C141B5E50BEBA1C9657D7C8 /* MWDATDisplay in Frameworks */ = {isa = PBXBuildFile; productRef = 4617310EF9F7A581893883A9 /* MWDATDisplay */; };
+		4EA397AD396618DE6EB275D2 /* AnswerNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9C0CD848E438E3F02A0AE /* AnswerNormalizer.swift */; };
+		6A38DDD63BD267E78AD6E623 /* AnswerNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A80F5AE92C0857F721A9D /* AnswerNormalizerTests.swift */; };
+		7A392D2538EC419216623536 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6048A548953047C2595EE4 /* FormField.swift */; };
+		805B0B94BB0389B09A8019CC /* GlassesDisplayMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20950B529FFEDEE616DE6B /* GlassesDisplayMirror.swift */; };
+		9B6D3EBEDB9D79241A4A03AA /* TranscriptionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88989102F4464546E081D5 /* TranscriptionModels.swift */; };
+		A3D056822AAFA28D5706A4B7 /* PhoneLiveSpeechBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CE2F73505D60A1CDCF76B /* PhoneLiveSpeechBridge.swift */; };
+		BC8C4970279FD56AEAEDCCAE /* SpokenOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26889670B03C611F4C8AFEC3 /* SpokenOutput.swift */; };
+		C89B9DEA0798569408DFF9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1AE58FC4DFEF18AD87B54E /* Assets.xcassets */; };
+		CC6D2C87177E0EA703E3A832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E5BD931E620F68D4B1B97 /* SceneDelegate.swift */; };
+		CDC1A6038636FB3C70CF8139 /* VoiceFormCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00C731B53AE8A29AC8F17B /* VoiceFormCoordinatorTests.swift */; };
+		D1E93A6E23F6F401D11064E4 /* WearablesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F01EB4D74AB634F23A1623 /* WearablesService.swift */; };
+		D5D975927D6D913BB85F0562 /* MWDATSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = EEA53156F5A1C17011A1B188 /* MWDATSpeech */; };
+		ED80176EFCC54D76BCF5C02C /* GlassesSpeechInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6264362D013AC2138A055E8 /* GlassesSpeechInput.swift */; };
+		FC665736609E2E2971941168 /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = B91DE701C8FC25DB27A69F2A /* MWDATCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC1DF8A3B0DAC49289D3432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EE21DCA1EB79F36CABCFA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658CD578340CDB5683F9D5EC;
+			remoteInfo = VoiceFormFill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029201DA30FCBF02F8D32641 /* VoiceFormCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceFormCoordinator.swift; sourceTree = "<group>"; };
+		0E20950B529FFEDEE616DE6B /* GlassesDisplayMirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesDisplayMirror.swift; sourceTree = "<group>"; };
+		26889670B03C611F4C8AFEC3 /* SpokenOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenOutput.swift; sourceTree = "<group>"; };
+		2F1AE58FC4DFEF18AD87B54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320A80F5AE92C0857F721A9D /* AnswerNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerNormalizerTests.swift; sourceTree = "<group>"; };
+		32906BBCDA73AE698C6A3D15 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		353D64881707FCAF907F9717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F00C731B53AE8A29AC8F17B /* VoiceFormCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceFormCoordinatorTests.swift; sourceTree = "<group>"; };
+		5B88989102F4464546E081D5 /* TranscriptionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionModels.swift; sourceTree = "<group>"; };
+		5BF9C0CD848E438E3F02A0AE /* AnswerNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerNormalizer.swift; sourceTree = "<group>"; };
+		64C82571B1612DDB36DE6EC2 /* VoiceFormFillTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VoiceFormFillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F01EB4D74AB634F23A1623 /* WearablesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearablesService.swift; sourceTree = "<group>"; };
+		8A6048A548953047C2595EE4 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		955E5BD931E620F68D4B1B97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A18CE2F73505D60A1CDCF76B /* PhoneLiveSpeechBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLiveSpeechBridge.swift; sourceTree = "<group>"; };
+		A6264362D013AC2138A055E8 /* GlassesSpeechInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesSpeechInput.swift; sourceTree = "<group>"; };
+		C41E1F46CD4A9EA362703C85 /* MockPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPanelViewController.swift; sourceTree = "<group>"; };
+		CAF75E4055569FB8C0A0DB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDD694BCEE68C97FB8EDF70B /* VoiceFormFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceFormFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D4EEB0C7FC49ED47831317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC665736609E2E2971941168 /* MWDATCore in Frameworks */,
+				D5D975927D6D913BB85F0562 /* MWDATSpeech in Frameworks */,
+				4C141B5E50BEBA1C9657D7C8 /* MWDATDisplay in Frameworks */,
+				183E941A6D466EEDA5BFCA9E /* MWDATMockDevice in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C41038D4B2E097F78DFFBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD694BCEE68C97FB8EDF70B /* VoiceFormFill.app */,
+				64C82571B1612DDB36DE6EC2 /* VoiceFormFillTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2A321A32CA8DA09F76E6BF /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A18CE2F73505D60A1CDCF76B /* PhoneLiveSpeechBridge.swift */,
+				26889670B03C611F4C8AFEC3 /* SpokenOutput.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		2BADAD2858F8A1328F837444 /* Glasses */ = {
+			isa = PBXGroup;
+			children = (
+				0E20950B529FFEDEE616DE6B /* GlassesDisplayMirror.swift */,
+				A6264362D013AC2138A055E8 /* GlassesSpeechInput.swift */,
+				5B88989102F4464546E081D5 /* TranscriptionModels.swift */,
+				76F01EB4D74AB634F23A1623 /* WearablesService.swift */,
+			);
+			path = Glasses;
+			sourceTree = "<group>";
+		};
+		3422CA1B7B8354F1CD59A798 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5BF9C0CD848E438E3F02A0AE /* AnswerNormalizer.swift */,
+				8A6048A548953047C2595EE4 /* FormField.swift */,
+				32906BBCDA73AE698C6A3D15 /* FormViewController.swift */,
+				029201DA30FCBF02F8D32641 /* VoiceFormCoordinator.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		37C8EFB9C674024A5972306B = {
+			isa = PBXGroup;
+			children = (
+				AD110F4322547BA1AEC9B788 /* VoiceFormFill */,
+				551EBD6D6B9F455001CB7233 /* VoiceFormFillTests */,
+				0C41038D4B2E097F78DFFBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551EBD6D6B9F455001CB7233 /* VoiceFormFillTests */ = {
+			isa = PBXGroup;
+			children = (
+				320A80F5AE92C0857F721A9D /* AnswerNormalizerTests.swift */,
+				3F00C731B53AE8A29AC8F17B /* VoiceFormCoordinatorTests.swift */,
+			);
+			path = VoiceFormFillTests;
+			sourceTree = "<group>";
+		};
+		6C52CD3AAE53B6C6F0FAF144 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C41E1F46CD4A9EA362703C85 /* MockPanelViewController.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		AD110F4322547BA1AEC9B788 /* VoiceFormFill */ = {
+			isa = PBXGroup;
+			children = (
+				CAF75E4055569FB8C0A0DB16 /* AppDelegate.swift */,
+				2F1AE58FC4DFEF18AD87B54E /* Assets.xcassets */,
+				353D64881707FCAF907F9717 /* Info.plist */,
+				955E5BD931E620F68D4B1B97 /* SceneDelegate.swift */,
+				1F2A321A32CA8DA09F76E6BF /* Audio */,
+				3422CA1B7B8354F1CD59A798 /* Form */,
+				2BADAD2858F8A1328F837444 /* Glasses */,
+				6C52CD3AAE53B6C6F0FAF144 /* Mock */,
+			);
+			path = VoiceFormFill;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658CD578340CDB5683F9D5EC /* VoiceFormFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5ECC01713FAA1405284E0A2 /* Build configuration list for PBXNativeTarget "VoiceFormFill" */;
+			buildPhases = (
+				92286F5CC78B96BA4161B826 /* Sources */,
+				4A2AF75E758E95776CB3AAD2 /* Resources */,
+				A9D4EEB0C7FC49ED47831317 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceFormFill;
+			packageProductDependencies = (
+				B91DE701C8FC25DB27A69F2A /* MWDATCore */,
+				EEA53156F5A1C17011A1B188 /* MWDATSpeech */,
+				4617310EF9F7A581893883A9 /* MWDATDisplay */,
+				70B67F8638F1D534BC118495 /* MWDATMockDevice */,
+			);
+			productName = VoiceFormFill;
+			productReference = EDD694BCEE68C97FB8EDF70B /* VoiceFormFill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9EF877A220658768A4300B /* VoiceFormFillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BF6299BF1BDA2EFF657596 /* Build configuration list for PBXNativeTarget "VoiceFormFillTests" */;
+			buildPhases = (
+				9609A5DC65DC1568DA13E3B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506E371B5AFB8E93E799E10D /* PBXTargetDependency */,
+			);
+			name = VoiceFormFillTests;
+			packageProductDependencies = (
+			);
+			productName = VoiceFormFillTests;
+			productReference = 64C82571B1612DDB36DE6EC2 /* VoiceFormFillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE21DCA1EB79F36CABCFA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					658CD578340CDB5683F9D5EC = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DFEDE783ED3049598A3FA7B /* Build configuration list for PBXProject "VoiceFormFill" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 37C8EFB9C674024A5972306B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C41038D4B2E097F78DFFBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658CD578340CDB5683F9D5EC /* VoiceFormFill */,
+				CB9EF877A220658768A4300B /* VoiceFormFillTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2AF75E758E95776CB3AAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89B9DEA0798569408DFF9BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92286F5CC78B96BA4161B826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA397AD396618DE6EB275D2 /* AnswerNormalizer.swift in Sources */,
+				097B11852D6E9E92D120C170 /* AppDelegate.swift in Sources */,
+				7A392D2538EC419216623536 /* FormField.swift in Sources */,
+				27BBE4C98FD5DD27B840B298 /* FormViewController.swift in Sources */,
+				805B0B94BB0389B09A8019CC /* GlassesDisplayMirror.swift in Sources */,
+				ED80176EFCC54D76BCF5C02C /* GlassesSpeechInput.swift in Sources */,
+				2E7C0D1CBA204F7A5DDD45D8 /* MockPanelViewController.swift in Sources */,
+				A3D056822AAFA28D5706A4B7 /* PhoneLiveSpeechBridge.swift in Sources */,
+				CC6D2C87177E0EA703E3A832 /* SceneDelegate.swift in Sources */,
+				BC8C4970279FD56AEAEDCCAE /* SpokenOutput.swift in Sources */,
+				9B6D3EBEDB9D79241A4A03AA /* TranscriptionModels.swift in Sources */,
+				133AB03E6DFB0777365F4B0F /* VoiceFormCoordinator.swift in Sources */,
+				D1E93A6E23F6F401D11064E4 /* WearablesService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9609A5DC65DC1568DA13E3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A38DDD63BD267E78AD6E623 /* AnswerNormalizerTests.swift in Sources */,
+				CDC1A6038636FB3C70CF8139 /* VoiceFormCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506E371B5AFB8E93E799E10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658CD578340CDB5683F9D5EC /* VoiceFormFill */;
+			targetProxy = 1CC1DF8A3B0DAC49289D3432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17094A11AFA98DEE50885852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU3YDMLM8C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VoiceFormFill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.wearables.voiceformfill;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E76BDB1CB794D3DE68F33DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU3YDMLM8C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VoiceFormFill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.wearables.voiceformfill;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37C1D2324EEF557FFFCF4B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		500D22793DE0BE9A0B800E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meta.wearables.VoiceFormFillTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceFormFill.app/VoiceFormFill";
+			};
+			name = Release;
+		};
+		528743CEB2584AD2338C6180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meta.wearables.VoiceFormFillTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceFormFill.app/VoiceFormFill";
+			};
+			name = Debug;
+		};
+		639104ADB3651D17C7AF01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFEDE783ED3049598A3FA7B /* Build configuration list for PBXProject "VoiceFormFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639104ADB3651D17C7AF01E7 /* Debug */,
+				37C1D2324EEF557FFFCF4B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86BF6299BF1BDA2EFF657596 /* Build configuration list for PBXNativeTarget "VoiceFormFillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528743CEB2584AD2338C6180 /* Debug */,
+				500D22793DE0BE9A0B800E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5ECC01713FAA1405284E0A2 /* Build configuration list for PBXNativeTarget "VoiceFormFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17094A11AFA98DEE50885852 /* Debug */,
+				2E76BDB1CB794D3DE68F33DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4617310EF9F7A581893883A9 /* MWDATDisplay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATDisplay;
+		};
+		70B67F8638F1D534BC118495 /* MWDATMockDevice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMockDevice;
+		};
+		B91DE701C8FC25DB27A69F2A /* MWDATCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCore;
+		};
+		EEA53156F5A1C17011A1B188 /* MWDATSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FDB2507F52B0655EB5132F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATSpeech;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6EE21DCA1EB79F36CABCFA9B /* Project object */;
+}

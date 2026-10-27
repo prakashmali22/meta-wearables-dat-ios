@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Voice Form Fill</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>VoiceFormFill</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>voiceformfill</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>MWDAT</key>
+	<dict>
+		<key>AppLinkURLScheme</key>
+		<string>voiceformfill://</string>
+		<key>ClientToken</key>
+		<string>$(CLIENT_TOKEN)</string>
+		<key>MetaAppID</key>
+		<string>$(META_APP_ID)</string>
+		<key>TeamID</key>
+		<string>$(DEVELOPMENT_TEAM)</string>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Connect to Meta AI Glasses for voice form fill.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_bonjour._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This lets your phone find and connect to your glasses over Wi-Fi.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Voice Form Fill uses the microphone for speech recognition during form entry.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Voice Form Fill uses speech recognition to fill form fields from your voice.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>external-accessory</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.meta.ar.wearable</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

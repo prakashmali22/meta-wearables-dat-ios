@@ -1,0 +1,24 @@
+{
+  "originHash" : "07ff7b8d2e82aa50f521d4d8d19ef79d4ebc42e281b57251b0f81ba4e4afd173",
+  "pins" : [
+    {
+      "identity" : "grdb.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/groue/GRDB.swift",
+      "state" : {
+        "revision" : "b83108d10f42680d78f23fe4d4d80fc88dab3212",
+        "version" : "7.11.1"
+      }
+    },
+    {
+      "identity" : "meta-wearables-dat-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/meta-wearables-dat-ios",
+      "state" : {
+        "revision" : "0bd369298eef6a980ad0bdb6c8a5502f2c02a08c",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

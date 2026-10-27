@@ -49,12 +49,12 @@
 			path = BirdSpotter;
 			sourceTree = "<group>";
 		};
-		09340769300BAED300DE442B /* birdspotterTests */ = {
+		09340769300BAED300DE442B /* BirdSpotterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BirdSpotterTests;
 			sourceTree = "<group>";
 		};
-		09340773300BAED300DE442B /* birdspotterUITests */ = {
+		09340773300BAED300DE442B /* BirdSpotterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BirdSpotterUITests;
 			sourceTree = "<group>";
@@ -100,8 +100,8 @@
 			children = (
 				0934075B300BAED100DE442B /* BirdSpotter */,
 				5EED0001300BAED100DE442B /* SeedData */,
-				09340769300BAED300DE442B /* birdspotterTests */,
-				09340773300BAED300DE442B /* birdspotterUITests */,
+				09340769300BAED300DE442B /* BirdSpotterTests */,
+				09340773300BAED300DE442B /* BirdSpotterUITests */,
 				0934075A300BAED100DE442B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 				09340768300BAED300DE442B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				09340769300BAED300DE442B /* birdspotterTests */,
+				09340769300BAED300DE442B /* BirdSpotterTests */,
 			);
 			name = birdspotterTests;
 			packageProductDependencies = (
@@ -187,7 +187,7 @@
 				09340772300BAED300DE442B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				09340773300BAED300DE442B /* birdspotterUITests */,
+				09340773300BAED300DE442B /* BirdSpotterUITests */,
 			);
 			name = birdspotterUITests;
 			packageProductDependencies = (
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09340754300BAED100DE442B /* Build configuration list for PBXProject "birdspotter" */;
+			buildConfigurationList = 09340754300BAED100DE442B /* Build configuration list for PBXProject "BirdSpotter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -435,11 +435,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 87A82WYPZS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BirdSpotter-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Bird Spotter";
+				INFOPLIST_KEY_CFBundleDisplayName = BirdSpotter;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BirdSpotter links with your Meta AI glasses over Bluetooth, so a session can spot through their camera.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "BirdSpotter uses the camera for real-time identification — point it at a bird to put a name to it.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BirdSpotter stamps each sighting with where you saw the bird, so your journal remembers the spot.";
@@ -452,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.meta.pixelandtexel.birdspotter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.birdspotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -475,11 +475,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 87A82WYPZS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BirdSpotter-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Bird Spotter";
+				INFOPLIST_KEY_CFBundleDisplayName = BirdSpotter;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BirdSpotter links with your Meta AI glasses over Bluetooth, so a session can spot through their camera.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "BirdSpotter uses the camera for real-time identification — point it at a bird to put a name to it.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BirdSpotter stamps each sighting with where you saw the bird, so your journal remembers the spot.";
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.meta.pixelandtexel.birdspotter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.birdspotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -595,7 +595,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09340754300BAED100DE442B /* Build configuration list for PBXProject "birdspotter" */ = {
+		09340754300BAED100DE442B /* Build configuration list for PBXProject "BirdSpotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09340778300BAED300DE442B /* Debug */,
@@ -647,7 +647,7 @@
 			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
 			requirement = {
 				kind = exactVersion;
-				version = "1.0.1";
+				version = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
